@@ -13,7 +13,6 @@ require 'conn.php';
 
 <body><center>
 <a href="tambah.php">Add New</a>
-
     <table border="3" cellpadding="20" cellspacing="0">
         <tr bgcolor="#F37A64">
             <th>Bil</th>
@@ -34,7 +33,7 @@ require 'conn.php';
                     <td>
                         <a href="update.php?idsenarai=<?php echo $row->idsenarai; ?>">Edit</a>
                         |
-                        <a href="padam.php?idsenarai=<?php echo $row->idsenarai; ?>" onclick="return confirm('Adakah anda yakin untuk padam?');">Padam</a>
+                        <a href="padam.php?idsenarai=<?php echo $row->idsenarai; ?>" onclick="return confirm('Adakah anda ingin padam?');">Padam</a>
                     </td>
                 </tr>
         <?php
@@ -42,7 +41,6 @@ require 'conn.php';
         }
         ?>
     </table>
-    </center>
-</body>
+</body></center>
 
-</html>
+</html>\
