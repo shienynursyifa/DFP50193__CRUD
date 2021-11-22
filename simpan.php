@@ -9,7 +9,7 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param('ss', $name, $ic);
 $stmt->execute();
 
-if ($conn->error) {
+if ($mysqli->error) {
     ?>
     <script>
         alert('Maaf! Nama tersebut sudah wujud dalam senarai');
