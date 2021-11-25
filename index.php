@@ -43,4 +43,4 @@ require 'conn.php';
     </table>
 </body></center>
 
-</html>\
+</html>
